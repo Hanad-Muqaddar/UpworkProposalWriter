@@ -26,11 +26,10 @@ def main():
 
     if submit_button:
         proposal = return_proposal(name, experience, job_description, budget).strip()
-        progress_text = "Running ..."
-        my_bar = st.progress(0, text=progress_text)
+        my_bar = st.progress(0, text="")
         for percent_complete in range(100):
             time.sleep(0.1)
-            my_bar.progress(percent_complete + 1, text=progress_text)
+            my_bar.progress(percent_complete + 1, text="")
         st.text_area("Your Proposal For Submit to Client", proposal, height=500)
     
     if refresh_button:
