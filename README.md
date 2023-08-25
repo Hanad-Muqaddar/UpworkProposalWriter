@@ -6,3 +6,5 @@ First You have to enter your details, like
 2) Your experience in Number of Years
 3) Job Description For which you want to write Proposal
 4) And the budget you want to offer to client for this project.
+
+And then click on Generate. 
